@@ -1,0 +1,33 @@
+#header{
+    .header{
+        padding-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        .left{
+            cursor: pointer;
+        }
+        .middle{
+            nav{
+                ul{
+                    display: flex;
+                    gap: 40px;
+                    li{
+                       a{
+                        font-size: 19px;
+                        color: black;
+                        transition: all 0.6s;
+                        &:hover{
+                            color: red;
+                        }
+                       }
+                    }
+                }
+            }
+        }
+        .right{
+            font-size: 30px;
+            display: flex;
+            gap: 30px;
+        }
+        }
+}

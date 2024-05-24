@@ -1,0 +1,77 @@
+#footer-top{
+    .footer-top{
+        padding-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        .company{
+          h2{
+            font-size: 30px;
+            font-weight: 400;
+           padding-bottom: 20px;
+        }
+        .middle{
+            padding: 9px 0;
+            font-weight: 100;
+        }
+        }
+        .account{
+            h2{
+                font-size: 30px;
+                font-weight: 400;
+               padding-bottom: 20px;
+            }
+            .middle{
+                padding: 9px 0;
+                font-weight: 100;
+            }
+        }
+        .getintouch{
+            h2{
+                font-size: 30px;
+                font-weight: 400;
+               padding-bottom: 20px;
+            }
+            .middle{
+                padding: 9px 0;
+                font-weight: 100;
+            }
+        }
+        .newletter{
+            h2{
+                font-size: 30px;
+                font-weight: 400;
+               padding-bottom: 20px;
+            }
+            .middle-1{
+                padding: 15px 0;
+                font-weight: 100;
+            }
+            .btn-subs{
+                border: none;
+                background-color: white;
+                font-weight: 700;
+                cursor: pointer;
+            }
+            input{
+                border: none;
+            }
+        }
+    }
+}
+
+
+#footer-bottom{
+ padding-top: 70px;
+ padding-bottom: 40px;
+    .footer-bottom{
+        .color{
+            color:#F45F97;
+        }
+        i{
+            color: red;
+        }
+display: flex;
+gap: 6px;
+justify-content: center;
+    }
+}
